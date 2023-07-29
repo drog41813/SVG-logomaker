@@ -6,7 +6,7 @@ This node command line application will allow the user to generate an svg file t
 
 ## Usage
 SVG logo maker walkthrough: https://drive.google.com/file/d/1HKM3DUXL8Ko1VAVUjR1JXnITlwaIUuqH/view?usp=sharing
-SVG logo maker screenshot: ![Alt text](logo.png)
+SVG logo maker screenshot: ![Alt text](/logoImage/logo.png)
 
 
 ## Credits
