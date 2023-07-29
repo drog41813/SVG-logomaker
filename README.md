@@ -5,7 +5,7 @@
 This node command line application will allow the user to generate README files based on the user's specified instructions and/or requirements. The user will answer a list of questions that include the title, description, table of contents, usage, contributions amongst other questions. Once the user answers all of these questions, the README file will be generated. 
 
 ## Usage
-SVG logo maker walkthrough: https://drive.google.com/file/d/161xHHGvO77TGKxYyP3jlfq-DxT9QOr4s/view?usp=sharing
+SVG logo maker walkthrough: https://drive.google.com/file/d/1NhSDfYMQPodEzWjuOVQIjcfjaYxIAbVp/view?usp=sharing
 SVG logo maker screenshot: ![Alt text](README-generator.png)
 
 
