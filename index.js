@@ -1,6 +1,8 @@
+// consts that will act as requirements in regards to the various files and/or installments
 const inquirer = require('inquirer');
 const { Circle, Triangle, Square } = require('./lib/shapes')
 const fs = require('fs');
+// inquirer & prompt which represents the questions that the user will be asked
 inquirer
   .prompt([
     {
@@ -32,6 +34,7 @@ inquirer
       choices: ['circle', 'triangle', 'square'],
     },
   ])
+  // .then that will be performed once the user inputs all answers to the prompts mentioned
   .then((data) => {
     let shape;
     if (data.shape === 'circle') {
@@ -41,6 +44,7 @@ inquirer
     } if (data.shape === 'square') {
       shape = new Square(data.textColor, data.text.toUpperCase(), data.shapeColor)
     }
+    // writeFile will create the specific svg file that will contain logo
     fs.writeFile("./examples/logo.svg", shape.render(), (err, result)=>{
       if (err) throw err;
       console.log('SVG file has been created!')
